@@ -43,15 +43,15 @@ data2={
 "g_tk":"1594482951"
 }
 data3={
-'hostUin': '2841191758',
+'hostUin': '****',
 'start': '0',#移动
 's': '0.5485568764022071',
 'num': '10',
 'g_tk': '1594482951',
 }
 data4={
-'uin':'1608448192',#自己qq
-'unikey': 'http://user.qzone.qq.com/2841191758/mood/4e2559a9417eff5ae4120400.1',
+'uin':'****',#自己qq
+'unikey': '****',
 'begin_uin': '0',
 'query_count': '60',
 'if_first_page': '1',
@@ -209,8 +209,8 @@ def draw(uin):#画图&链接
 def mainloop(uin):
 	ip_list = get_ip_list(url5, headers=header)#获取IP
 	uin=uin#目标qq
-	myuin='1608448192'#自己的qq
-	password='838444633li'#密码
+	myuin='***'#自己的qq
+	password='***'#密码
 	update_cookie_gtk(uin,myuin,password)#更新cookie等信息0 
 	get_myf(url,data,header,ip_list)#获取我的好友列表
 	serch(1,1,ip_list)#查看2页说说1页留言
@@ -218,12 +218,9 @@ def mainloop(uin):
 	draw(uin)
 	print(people)
 	uinkey.clear()
-mainloop('369703974')
-mainloop('1098763323')
-mainloop('1916283196')
-mainloop('2515499608')
-mainloop('2664458432')
-mainloop('1026598872')
+mainloop('***')#第一个人
+mainloop('***')#第二个人
+mainloop('***')#第三个人
 nx.draw(G , node_color='y' , with_labels=True,node_size=800)
 plt.show()  
 
