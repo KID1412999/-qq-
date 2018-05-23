@@ -23,26 +23,26 @@ url5= 'http://www.xicidaili.com/nn/'#代理IP获取网址
 
 header={'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'}
 data={
-'uin': '1608448192',
+'uin': '***',
 'g_tk':'1594482951',
 'do': '1',
 	}
 data2={
-"uin":"2841191758",
+"uin":"***",
 "pos":"0",#移动
 "num":"20",#显示的页数
 "g_tk":"1594482951"
 }
 data3={
-'hostUin': '2841191758',
+'hostUin': '***',
 'start': '0',#移动
 's': '0.5485568764022071',
 'num': '10',
 'g_tk': '1594482951',
 }
 data4={
-'uin':'1608448192',#自己qq
-'unikey': 'http://user.qzone.qq.com/2841191758/mood/4e2559a9417eff5ae4120400.1',
+'uin':'***',#自己qq
+'unikey': '****',
 'begin_uin': '0',
 'query_count': '60',
 'if_first_page': '1',
@@ -190,9 +190,9 @@ def draw():#画图
 	plt.show()  
 
 ip_list = get_ip_list(url5, headers=header)#获取IP
-uin='320570941'#目标qq
-myuin='1608448192'#自己的qq
-password='838444633li'#密码
+uin='***'#目标qq
+myuin='***'#自己的qq
+password='****'#密码
 update_cookie_gtk(uin,myuin,password)#更新cookie等信息0 
 get_myf(url,data,header,ip_list)#获取我的好友列表
 serch(1,1,ip_list)#查看2页说说1页留言
