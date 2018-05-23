@@ -17,9 +17,7 @@ class Friend():
 		self.qq_num=qq
 	def add_friend(self,id):
 		self.friend_id.append(id)
-people=[]
-myfriend=[15641]
-
+people=[]#关系网里面的人
 my_friend=[]
 friend=[]
 uinkey=[]
@@ -32,12 +30,12 @@ url5= 'http://www.xicidaili.com/nn/'#代理IP获取网址
 
 header={'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'}
 data={
-'uin': '1608448192',
+'uin': '****',
 'g_tk':'1594482951',
 'do': '1',
 	}
 data2={
-"uin":"2841191758",
+"uin":"****",
 "pos":"0",#移动
 "num":"20",#显示的页数
 "g_tk":"1594482951"
