@@ -25,8 +25,9 @@ def get_hisfuin(uin):
 					hisf.update(ls)
 					print(ls)
 					s.append(hisf)
-					c+=1
+					
 					get_hisfuin(ls)
+		c+=1
 		return get_hisfuin(hisf)
 get_hisfuin(myuin)
 import networkx as nx
